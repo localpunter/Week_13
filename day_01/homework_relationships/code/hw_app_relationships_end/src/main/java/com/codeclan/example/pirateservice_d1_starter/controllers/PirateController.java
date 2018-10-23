@@ -16,8 +16,4 @@ public class PirateController {
     @Autowired
     PirateRepository pirateRepository;
 
-    @GetMapping
-    public List<Pirate> getAllPirates(){
-        return pirateRepository.findAll();
-    }
 }

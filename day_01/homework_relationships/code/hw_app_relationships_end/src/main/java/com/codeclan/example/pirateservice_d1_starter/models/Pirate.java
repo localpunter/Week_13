@@ -95,4 +95,12 @@ public class Pirate {
     public void addRaid(Raid raid){
         this.raids.add(raid);
     }
+
+    public List<Raid> getRaids() {
+        return raids;
+    }
+
+    public void setRaids(List<Raid> raids) {
+        this.raids = raids;
+    }
 }

@@ -52,4 +52,6 @@ public class Ship {
     public void setId(Long id) {
         this.id = id;
     }
+
+
 }

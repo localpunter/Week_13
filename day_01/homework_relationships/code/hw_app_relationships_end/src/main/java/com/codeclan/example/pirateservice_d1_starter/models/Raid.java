@@ -69,4 +69,12 @@ public class Raid {
     public void addPirate(Pirate pirate){
         this.pirates.add(pirate);
     }
+
+    public List<Pirate> getPirates() {
+        return pirates;
+    }
+
+    public void setPirates(List<Pirate> pirates) {
+        this.pirates = pirates;
+    }
 }
