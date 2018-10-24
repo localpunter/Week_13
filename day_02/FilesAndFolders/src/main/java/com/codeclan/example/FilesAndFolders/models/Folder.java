@@ -28,7 +28,7 @@ public class Folder {
         this.files = new ArrayList<>();
     }
 
-    public Folder(String clinic_visits) {
+    public Folder() {
     }
 
     public Long getId() {

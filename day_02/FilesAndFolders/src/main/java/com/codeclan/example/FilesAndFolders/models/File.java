@@ -24,7 +24,7 @@ public class File {
     private Folder folder;
 
 
-    public File(String name, String ext, int size) {
+    public File(String name, String ext, int size, Folder folder) {
         this.name = name;
         this.ext = ext;
         this.size = size;
