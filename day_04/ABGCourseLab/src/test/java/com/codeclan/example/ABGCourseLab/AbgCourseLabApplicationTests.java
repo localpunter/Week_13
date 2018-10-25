@@ -41,13 +41,13 @@ public class AbgCourseLabApplicationTests {
 
 	@Test
     public void canGetCustomersOnCourse() {
-	    List<Customer> results = customerRepository.getCustomersFromCourse(1L);
+	    List<Customer> results = customerRepository.getCustomersFromCourse("JavaScript");
 	    assertEquals(1, results.size());
     }
 
     @Test
     public void canGetCoursesFromCustomer() {
-	    List<Course> results = courseRepository.getCoursesFromCustomer(3L);
+	    List<Course> results = courseRepository.getCoursesFromCustomer("Peter");
 	    assertEquals(2, results.size());
     }
 

@@ -17,13 +17,14 @@ public class CustomerRepositoryImpl implements CustomerRepositoryCustom{
     EntityManager entityManager;
 
     @Transactional
-    public List<Customer> getCustomersFromCourse(Long courseId) {
+    public List<Customer> getCustomersFromCourse(String courseName) {
          List<Customer> results = null;
          Session session = entityManager.unwrap(Session.class);
          try {
              Criteria cr = session.createCriteria(Customer.class);
              cr.createAlias("bookings", "booking");
-             cr.add(Restrictions.eq("booking.course.id", courseId));
+             cr.createAlias("booking.course", "course");
+             cr.add(Restrictions.eq("course.name", courseName));
              results = cr.list();
          } catch (HibernateException ex) {
              ex.printStackTrace();
