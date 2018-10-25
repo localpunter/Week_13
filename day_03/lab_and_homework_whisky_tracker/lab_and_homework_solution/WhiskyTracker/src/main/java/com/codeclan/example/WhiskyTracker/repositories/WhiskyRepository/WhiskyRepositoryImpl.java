@@ -17,6 +17,7 @@ public class WhiskyRepositoryImpl implements WhiskyRepositoryCustom {
     @Autowired
     EntityManager entityManager;
 
+    // Query will be on whisky table since wer're getting back whiskies.
     @Transactional
     public List<Whisky> getAllWhiskiesForYear(int year){
         List<Whisky> results = null;
