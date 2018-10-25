@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ca2eec-b1e2-43fc-bdff-666f9d4a3b4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../day_01/homework_relationships/code/hw_app_relationships_end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_01/homework_relationships/code/hw_app_relationships_end/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WhiskyTracker/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/WhiskyTracker/src/main/java/com/codeclan/example/WhiskyTracker/repositories/WhiskyRepository/WhiskyRepositoryImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="c9ca2eec-b1e2-43fc-bdff-666f9d4a3b4c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -427,7 +424,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="302" width="1280" height="778" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
