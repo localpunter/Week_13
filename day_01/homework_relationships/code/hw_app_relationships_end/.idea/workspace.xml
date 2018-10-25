@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb0cc12-7e06-404f-9a6c-0d6314297146" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../day_03/lab_and_homework_whisky_tracker/lab_and_homework_solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_03/lab_and_homework_whisky_tracker/lab_and_homework_solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/repositories/CourseRepository/CourseRepositoryCustom.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/repositories/CourseRepository/CourseRepositoryCustom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/repositories/CourseRepository/CourseRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/repositories/CourseRepository/CourseRepositoryImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +18,7 @@
     <session id="-1044079625">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="2" />
@@ -70,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/example/pirateservice_d1_starter/components/DataLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
+            <state relative-caret-position="355">
               <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -166,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/example/pirateservice_d1_starter/models/Pirate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1157">
-              <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
+            <state relative-caret-position="116">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1309#1310#0" expanded="true" />
@@ -195,6 +196,7 @@
                 <element signature="e#1945#1946#0" expanded="true" />
                 <element signature="e#1982#1983#0" expanded="true" />
                 <element signature="e#2018#2019#0" expanded="true" />
+                <element signature="e#2054#2055#0" expanded="true" />
                 <element signature="e#2082#2083#0" expanded="true" />
                 <element signature="e#2128#2129#0" expanded="true" />
                 <element signature="e#2162#2163#0" expanded="true" />
@@ -376,7 +378,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540465706670" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540471117423" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -455,7 +457,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="353" extended-state="1" />
+    <frame x="0" y="22" width="1280" height="353" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -545,41 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/example/pirateservice_d1_starter/models/Pirate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1157">
-          <caret line="98" column="34" selection-start-line="98" selection-start-column="34" selection-end-line="98" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1757#1758#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
-            <element signature="e#1819#1820#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-            <element signature="e#1875#1876#0" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-            <element signature="e#1982#1983#0" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-            <element signature="e#2128#2129#0" expanded="true" />
-            <element signature="e#2162#2163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/example/pirateservice_d1_starter/models/Raid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="934">
@@ -656,10 +623,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/example/pirateservice_d1_starter/components/DataLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
+        <state relative-caret-position="355">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codeclan/example/pirateservice_d1_starter/models/Pirate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#1705#1706#0" expanded="true" />
+            <element signature="e#1732#1733#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1913#1914#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#2054#2055#0" expanded="true" />
+            <element signature="e#2082#2083#0" expanded="true" />
+            <element signature="e#2128#2129#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
           </folding>
         </state>
       </provider>

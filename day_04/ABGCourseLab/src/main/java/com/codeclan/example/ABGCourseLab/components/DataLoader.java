@@ -26,8 +26,6 @@ public class DataLoader implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-
-
         Course course1 = new Course("JavaScript", "Musselburgh", 5);
         Course course2 = new Course("Nonsense101", "Edinburgh", 3);
         Course course3 = new Course("Python", "Rosyth", 4);
@@ -45,9 +43,11 @@ public class DataLoader implements ApplicationRunner {
         Booking booking1 = new Booking("17-02-2017", course1, customer1);
         Booking booking2 = new Booking("01-08-2018", course3, customer2);
         Booking booking3 = new Booking("01-08-2018", course3, customer3);
+        Booking booking4 = new Booking("03-05-2018", course2, customer3);
         bookingRepository.save(booking1);
         bookingRepository.save(booking2);
         bookingRepository.save(booking3);
+        bookingRepository.save(booking4);
 
     }
 }
