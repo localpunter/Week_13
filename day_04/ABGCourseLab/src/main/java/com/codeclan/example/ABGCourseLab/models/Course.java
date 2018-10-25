@@ -29,8 +29,7 @@ public class Course {
     public Course() {
     }
 
-    public Course(Long id, String name, String town, int starRating) {
-        this.id = id;
+    public Course(String name, String town, int starRating) {
         this.name = name;
         this.town = town;
         this.starRating = starRating;

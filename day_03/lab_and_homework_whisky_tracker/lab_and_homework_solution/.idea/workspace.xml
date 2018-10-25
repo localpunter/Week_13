@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9ca2eec-b1e2-43fc-bdff-666f9d4a3b4c" name="Default Changelist" comment="" />
+    <list default="true" id="c9ca2eec-b1e2-43fc-bdff-666f9d4a3b4c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../day_01/homework_relationships/code/hw_app_relationships_end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_01/homework_relationships/code/hw_app_relationships_end/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../day_04/ABGCourseLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_04/ABGCourseLab/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +23,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="14" />
+          <entry key="properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="14" />
+          <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -103,7 +109,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WhiskyTracker/src/main/java/com/codeclan/example/WhiskyTracker/models/Whisky.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="489">
@@ -130,6 +136,15 @@
                 <element signature="e#1335#1336#0" expanded="true" />
                 <element signature="e#1365#1366#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WhiskyTracker/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="62" lean-forward="true" selection-end-line="9" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -161,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="302" />
     <option name="width" value="1280" />
     <option name="height" value="778" />
@@ -335,6 +350,14 @@
               <item name="lab_and_homework_solution" type="462c0819:PsiDirectoryNode" />
               <item name="WhiskyTracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab_and_homework_solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab_and_homework_solution" type="462c0819:PsiDirectoryNode" />
+              <item name="WhiskyTracker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -423,7 +446,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="302" width="1280" height="778" extended-state="1" />
+    <frame x="0" y="302" width="1280" height="778" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -546,6 +570,13 @@
             <element signature="e#1335#1336#0" expanded="true" />
             <element signature="e#1365#1366#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WhiskyTracker/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="62" lean-forward="true" selection-end-line="9" selection-end-column="62" />
         </state>
       </provider>
     </entry>
