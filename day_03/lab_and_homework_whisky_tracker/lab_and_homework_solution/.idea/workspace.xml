@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c9ca2eec-b1e2-43fc-bdff-666f9d4a3b4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../../day_01/homework_relationships/code/hw_app_relationships_end/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_01/homework_relationships/code/hw_app_relationships_end/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../day_04/ABGCourseLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_04/ABGCourseLab/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Customer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,8 +176,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="302" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="778" />
   </component>
@@ -446,7 +446,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="302" width="1280" height="778" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />

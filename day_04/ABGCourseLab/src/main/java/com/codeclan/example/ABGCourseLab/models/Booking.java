@@ -13,10 +13,12 @@ public class Booking {
     @Column
     private String date;
 
-    @Column
+    @ManyToOne
+    @JoinColumn(name = "course_id", nullable = false)
     private Course course;
 
-    @Column
+    @ManyToOne
+    @JoinColumn(name = "customer_id", nullable = false)
     private Customer customer;
 
     public Booking() {

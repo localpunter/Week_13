@@ -21,11 +21,11 @@ public class Customer {
     @Column
     private int age;
 
-    @OneToMany(mappedBy = "booking", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "customer", fetch = FetchType.LAZY)
     private List<Booking> bookings;
 
-    @OneToMany(mappedBy = "course", fetch = FetchType.LAZY)
-    private List<Course> courses;
+//    @OneToMany(mappedBy = "courses", fetch = FetchType.LAZY)
+//    private List<Course> courses;
 
     public Customer() {
     }
@@ -35,7 +35,7 @@ public class Customer {
         this.town = town;
         this.age = age;
         this.bookings = new ArrayList<>();
-        this.courses = new ArrayList<>();
+//        this.courses = new ArrayList<>();
     }
 
     public Long getId() {
@@ -78,13 +78,13 @@ public class Customer {
         this.bookings = bookings;
     }
 
-    public List<Course> getCourses() {
-        return courses;
-    }
-
-    public void setCourses(List<Course> courses) {
-        this.courses = courses;
-    }
+//    public List<Course> getCourses() {
+//        return courses;
+//    }
+//
+//    public void setCourses(List<Course> courses) {
+//        this.courses = courses;
+//    }
 }
 
 

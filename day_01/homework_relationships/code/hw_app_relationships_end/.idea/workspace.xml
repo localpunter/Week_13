@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bb0cc12-7e06-404f-9a6c-0d6314297146" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../day_03/lab_and_homework_whisky_tracker/lab_and_homework_solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_03/lab_and_homework_whisky_tracker/lab_and_homework_solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../day_04/ABGCourseLab/src/main/java/com/codeclan/example/ABGCourseLab/models/Customer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -248,7 +248,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="353" />
@@ -376,7 +376,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540463560061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540465706670" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
