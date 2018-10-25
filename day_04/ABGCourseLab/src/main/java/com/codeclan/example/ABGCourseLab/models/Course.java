@@ -1,5 +1,7 @@
 package com.codeclan.example.ABGCourseLab.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +22,7 @@ public class Course {
     @Column(name = "star_rating")
     private int starRating;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "course", fetch = FetchType.LAZY)
     private List<Booking> bookings;
 
